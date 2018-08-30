@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  padding: 15px
+}
+
+.text1 {
+  background-color: lightgrey;
+  text-align: left;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-left: 65%;
+  border: 1.4px solid grey;
+  border-radius: 10px;
+  height: 20em;
+  width: 20%;
+  position: fixed;
+  right: 0;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.upgrades {
+  background-color: lightgrey;
+  text-align: left;
+  margin-right: 65%;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: 1.4px solid grey;
+  border-radius: 10px;
+  height: 20em;
+  width: 20%;
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  float: left;
+}
