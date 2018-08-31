@@ -47,3 +47,15 @@ h2 {
   float: left;
   overflow: auto;
 }
+
+.clickarea {
+  text-align: center;
+  margin-right: 37.5%;
+  margin-top: 5%;
+  margin-left: 32%;
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  float: none;
+  overflow: auto;
+}

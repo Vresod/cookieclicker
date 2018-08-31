@@ -8,6 +8,12 @@
     <script>
     var cookies = 0;
     </script>
+    <script>
+    function cookieClick(number){
+    cookies = cookies + number;
+    document.getElementById("cookies").innerHTML = cookies;
+};
+    </script>
     </head>
 
     <body>
@@ -22,9 +28,9 @@
               <h2>Upgrades</h2>
                 <p>
             </div><!--/Upgrades-->
-            <div id=clickarea><!--Cookies-->
-              <p id=cookies></p>
-              <p><button onclick="onClick='cookieClick(1)'">Click</button>
+            <div class=clickarea><!--Cookies-->
+              <p>You have <span id=cookies></span> cookies!</p>
+              <p><img src="images/cookie.png" onclick='cookieClick(1)'></p>
             </div><!--/Cookies-->
         </div><!--/Game-->
     </body>
