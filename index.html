@@ -7,9 +7,6 @@
     <link href="index.css" rel="stylesheet">
     <link type="text/png" rel="icon" href="images/favicon.png">
     <script src="js/game.js"></script>
-    <script>
-      var cps = cursors + 0;
-    </script>
     <audio id="click" src="audio/click.wav"></audio>
     <audio id="clicklow" src="audio/clicklow.wav"></audio>
     </head>
@@ -25,13 +22,13 @@
         </div><!--/Instructions-->
         <div class='upgrades'><!--Upgrades-->
           <h2>Upgrades</h2>
-            <p><button onclick="buyCursor();clicksound()">Cursors: <span id="cursors">0</span><br>Cost: <span id='cursorCost'>10</span></button></p>
+            <p><button onclick="buyCursor()">Cursors: <span id="cursors">0</span><br>Cost: <span id='cursorCost'>10</span></button></p>
         </div><!--/Upgrades-->
         <div class=clickarea><!--Cookies-->
           <p>You have <span id=cookies>0</span> cookies!</p>
           <p> You have <span id='cps'>0</span> <abbr title="Clicks per Second">CPS!</abbr></p>
           <p><img src="images/cookie.png" onclick='cookieClick(1);clicksound()'></p>
         </div><!--/Cookies-->
-        </div><!--/Game-->
+      </div><!--/Game-->
     </body>
   </html>
