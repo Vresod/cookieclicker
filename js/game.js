@@ -1,5 +1,13 @@
 var cookies = 0;
 
+function clicksound(){
+  document.getElementById('click').play();
+};
+
+function clicksoundlow(){
+  document.getElementById('clicklow').play();
+};
+
 function cookieClick(number){
     cookies = cookies + number;
     document.getElementById("cookies").innerHTML = cookies;
@@ -20,7 +28,7 @@ function buyCursor(){
     document.getElementById('cursorCost').innerHTML = nextCost;  //updates the cursor cost for the user
 };
 
-window.setInterval(function(){
+window.setInterval(function (){
 
   cookieClick(cursors);
 
