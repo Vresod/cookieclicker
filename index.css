@@ -38,7 +38,7 @@ h2 {
   margin-left: 10%;
   border: 1.4px solid grey;
   border-radius: 10px;
-  height: 40em;
+  height: 70%;
   width: 20%;
   display: inline-block;
   position: fixed;
@@ -50,7 +50,7 @@ h2 {
 .clickarea {
   text-align: center;
   margin-right: 37.5%;
-  margin-top: 5%;
+  margin-top: 0%;
   margin-left: 32%;
   display: inline-block;
   position: fixed;
