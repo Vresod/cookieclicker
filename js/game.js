@@ -16,4 +16,5 @@ function cookieClick(number){
 window.setInterval(function (){
   var cps = cursors + (grandmas * 2);
   document.getElementById('cps').innerHTML = cps;
-}, 100);
+  document.getElementById('titleclicker').innerHTML = ;
+}, 10);

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Cookie Clicker</title>
+    <title id='titleclicker'>0 Cookies - Cookie Clicker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Mono" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
@@ -9,6 +9,7 @@
     <script src="js/game.js"></script>
     <script src="js/cursors.js"></script>
     <script src="js/grandmas.js"></script>
+    <script src="js/cheats.js"></script>
     <audio id="click" src="audio/click.wav"></audio>
     <audio id="clicklow" src="audio/clicklow.wav"></audio>
     </head>
@@ -30,7 +31,7 @@
         <div class=clickarea><!--Cookies-->
           <p>You have <span id=cookies>0</span> cookies!</p>
           <p> You have <span id='cps'>0</span> <span title="Clicks per Second">CPS!</span></p>
-          <p><img src="images/cookie.png" onclick='cookieClick(1);clicksound()'></p>
+          <p><img src="images/cookie.png" onclick='cookieClick(1);clicksoundlow()'></p>
         </div><!--/Cookies-->
       </div><!--/Game-->
     </body>
