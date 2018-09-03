@@ -7,6 +7,8 @@
     <link href="index.css" rel="stylesheet">
     <link type="text/png" rel="icon" href="images/favicon.png">
     <script src="js/game.js"></script>
+    <script src="js/cursors.js"></script>
+    <script src="js/grandmas.js"></script>
     <audio id="click" src="audio/click.wav"></audio>
     <audio id="clicklow" src="audio/clicklow.wav"></audio>
     </head>
@@ -23,10 +25,11 @@
         <div class='upgrades'><!--Upgrades-->
           <h2>Upgrades</h2>
             <p><button onclick="buyCursor()">Cursors: <span id="cursors">0</span><br>Cost: <span id='cursorCost'>10</span></button></p>
+            <p><button onclick="buyGrandma()">Grandmas: <span id="grandmas">0</span><br>Cost: <span id='grandmaCost'>25</span></button></p>
         </div><!--/Upgrades-->
         <div class=clickarea><!--Cookies-->
           <p>You have <span id=cookies>0</span> cookies!</p>
-          <p> You have <span id='cps'>0</span> <abbr title="Clicks per Second">CPS!</abbr></p>
+          <p> You have <span id='cps'>0</span> <span title="Clicks per Second">CPS!</span></p>
           <p><img src="images/cookie.png" onclick='cookieClick(1);clicksound()'></p>
         </div><!--/Cookies-->
       </div><!--/Game-->
