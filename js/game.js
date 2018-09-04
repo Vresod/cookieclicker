@@ -8,14 +8,12 @@ function clicksoundlow(){
   document.getElementById('clicklow').play();
 };
 
-credits()
-
 function cookieClick(number){
     cookies = cookies + number;
     document.getElementById("cookies").innerHTML = cookies;
 };
 
 window.setInterval(function (){
-  var cps = cursors + (grandmas * 2);
+  var cps = cursors + (grandmas * 2) + (cookiecowboys * 3);
   document.getElementById('cps').innerHTML = cps;
 }, 10);
