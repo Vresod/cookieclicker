@@ -8,6 +8,8 @@ function clicksoundlow(){
   document.getElementById('clicklow').play();
 };
 
+credits()
+
 function cookieClick(number){
     cookies = cookies + number;
     document.getElementById("cookies").innerHTML = cookies;
@@ -16,5 +18,4 @@ function cookieClick(number){
 window.setInterval(function (){
   var cps = cursors + (grandmas * 2);
   document.getElementById('cps').innerHTML = cps;
-  document.getElementById('titleclicker').innerHTML = ;
 }, 10);
