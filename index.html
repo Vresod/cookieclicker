@@ -3,46 +3,53 @@
 HUGE thanks to dhmstark for his "incremental game" tutorial!
 -->
 <html lang="en">
-  <head>
-    <title>Cookie Clicker</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Mono" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <link type="text/png" rel="icon" href="images/favicon.png">
-    <script src="js/game.js"></script>
-    <script src="js/cursors.js"></script>
-    <script src="js/grandmas.js"></script>
-    <script src="js/cookiecowboys.js"></script>
-    <script src="js/credit.js"></script>
-    <script src="js/cookiejesus.js"></script>
-    <script src="js/cookiepropaganda.js"></script>
-    <audio id="click" src="audio/click.wav"></audio>
-    <audio id="clicklow" src="audio/clicklow.wav"></audio>
-    </head>
+	<head>
+		<title>Cookie Clicker</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Mono" rel="stylesheet">
+		<link href="index.css" rel="stylesheet">
+		<link type="text/png" rel="icon" href="images/favicon.png">
+		<script src="js/game.js"></script>
+		<script src="js/cursors.js"></script>
+		<script src="js/grandmas.js"></script>
+		<script src="js/cookiecowboys.js"></script>
+		<script src="js/credit.js"></script>
+		<script src="js/cookiejesus.js"></script>
+		<script src="js/cookiepropaganda.js"></script>
+		<audio id="click" src="audio/click.wav"></audio>
+		<audio id="clicklow" src="audio/clicklow.wav"></audio>
+		</head>
 
-    <body>
-      <h1>Cookie Clicker</h1>
-      <br>
-      <div class=game><!--Game-->
-        <div class='text1'><!--Instructions-->
-          <h2>Instructions</h2>
-            <p>Cookie Clicker is a game about clicking a big cookie to earn points, and using those points to buy upgrades which give you cookies.</p>
-          <h2>Cheats</h2>
-            <p>fffff</p>
-        </div><!--/Instructions-->
-        <div class='upgrades'><!--Upgrades-->
-          <h2>Upgrades</h2>
-            <p><button onclick="buyCursor()">Cursors: <span id="cursors">0</span><br>Cost: <span id='cursorCost'>10</span></button></p>
-            <p><button onclick="buyGrandma()">Grandmas: <span id="grandmas">0</span><br>Cost: <span id='grandmaCost'>25</span></button></p>
-            <p><button onclick="buyCookieCowboy()">Cookie Cowboys: <span id="cookiecowboys">0</span><br>Cost: <span id='cookiecowboyCost'>50</span></button></p>
-            <p><button onclick="buyCookiePropaganda()">Cookie Propagandas: <span id="cookiepropagandas">0</span><br>Cost: <span id='cookiepropagandaCost'>100</span></button></p>
-            <p><button onclick="buyCookieJesus()">Cookie Jesus: <span id="cookiejesuses">0</span><br>Cost: <span id='cookiejesusCost'>1000</span></button></p>
-        </div><!--/Upgrades-->
-        <div class=clickarea><!--Cookies-->
-          <p>You have <span id=cookies>0</span> cookies!</p>
-          <p> You have <span id='cps'>0</span> <span title="Clicks per Second">CPS!</span></p>
-          <p><img src="images/cookie.png" onclick='cookieClick(1);clicksoundlow()'></p>
-        </div><!--/Cookies-->
-      </div><!--/Game-->
-    </body>
-  </html>
+		<body>
+			<h1>Cookie Clicker</h1>
+			<br>
+			<div class=game><!--Game-->
+				<div class='text1'><!--Instructions-->
+					<h2>Instructions</h2>
+					<p>Cookie Clicker is a game about clicking a big cookie to earn points, and using those points to buy upgrades which give you cookies.
+					<p>
+						<ol>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>
+					</p>
+						<h2>Cheats</h2>
+						<p>fffff</p>
+				</div><!--/Instructions-->
+				<div class='upgrades'><!--Upgrades-->
+					<h2>Upgrades</h2>
+						<p><button onclick="buyCursor()">Cursors: <span id="cursors">0</span><br>Cost: <span id='cursorCost'>10</span></button></p>
+						<p><button onclick="buyGrandma()">Grandmas: <span id="grandmas">0</span><br>Cost: <span id='grandmaCost'>25</span></button></p>
+						<p><button onclick="buyCookieCowboy()">Cookie Cowboys: <span id="cookiecowboys">0</span><br>Cost: <span id='cookiecowboyCost'>50</span></button></p>
+						<p><button onclick="buyCookiePropaganda()">Cookie Propagandas: <span id="cookiepropagandas">0</span><br>Cost: <span id='cookiepropagandaCost'>100</span></button></p>
+						<p><button onclick="buyCookieJesus()">Cookie Jesus: <span id="cookiejesuses">0</span><br>Cost: <span id='cookiejesusCost'>1000</span></button></p>
+				</div><!--/Upgrades-->
+				<div class=clickarea><!--Cookies-->
+					<p>You have <span id=cookies>0</span> cookies!</p>
+					<p> You have <span id='cps'>0</span> <span title="Clicks per Second">CPS!</span></p>
+					<p><img src="images/cookie.png" onclick='cookieClick(1);clicksoundlow()'></p>
+				</div><!--/Cookies-->
+			</div><!--/Game-->
+		</body>
+	</html>
