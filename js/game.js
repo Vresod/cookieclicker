@@ -19,3 +19,6 @@ window.setInterval(function () {
 	var cps = cursors + (grandmas * 2) + (cookiecowboys * 5) + (cookiepropagandas * 25) + (cookiejesuses * 50);
 	document.getElementById('cps').innerHTML = cps;
 }, 10);
+
+function cheat()
+	document.write("<h1 style='text-align:center;'>CHEATER!!!!</h1>")
