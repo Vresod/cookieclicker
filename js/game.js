@@ -20,5 +20,6 @@ window.setInterval(function () {
 	document.getElementById('cps').innerHTML = cps;
 }, 10);
 
-function cheat()
+function cheat() {
 	document.write("<h1 style='text-align:center;'>CHEATER!!!!</h1>")
+}
