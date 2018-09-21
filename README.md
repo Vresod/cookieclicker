@@ -1,3 +1,4 @@
-# cookieclickerspecial
 
-A dedicated clicker game.
+# cookieclicker
+
+A dedicated clicker game. Check it out [here](https://vresod.github.io/cookieclicker)!
