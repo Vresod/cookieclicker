@@ -13,6 +13,7 @@ function clicksoundlow() {
 function cookieClick(number) {
 	cookies = cookies + number;
 	document.getElementById("cookies").innerHTML = cookies;
+	document.title = cookies + ' Cookies - Cookie Clicker'
 };
 
 window.setInterval(function () {
@@ -20,6 +21,7 @@ window.setInterval(function () {
 	document.getElementById('cps').innerHTML = cps;
 }, 10);
 
-function cheat() {
-	document.write("<h1 style='text-align:center;'>CHEATER!!!!</h1>")
+function cheat(number) {
+	cookieClick(number);
+
 }

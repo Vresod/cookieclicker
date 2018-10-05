@@ -1,7 +1,7 @@
 var cookiejesuses = 0;
 
 function buyCookieJesus() {
-	var cookiejesusCost = Math.floor(1000 * Math.pow(1.5, cookiejesuses)); //works out the cost of this cookiejesus
+	var cookiejesusCost = Math.floor(1000 * Math.pow(1.1, cookiejesuses)); //works out the cost of this cookiejesus
 	if (cookies >= cookiejesusCost) { //checks that the player can afford the cookiejesus
 		cookiejesuses = cookiejesuses + 1; //increases number of cookiejesuses
 		clicksoundlow()
@@ -9,7 +9,7 @@ function buyCookieJesus() {
 		document.getElementById('cookiejesuses').innerHTML = cookiejesuses; //updates the number of cookiejesuses for the user
 		document.getElementById('cookies').innerHTML = cookies; //updates the number of cookies for the user
 	};
-	var nextCost = Math.floor(1000 * Math.pow(1.5, cookiejesuses)); //works out the cost of the next cookiejesus
+	var nextCost = Math.floor(1000 * Math.pow(1.1, cookiejesuses)); //works out the cost of the next cookiejesus
 	document.getElementById('cookiejesusCost').innerHTML = nextCost; //updates the cookiejesus cost for the user
 };
 
