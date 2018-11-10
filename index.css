@@ -10,15 +10,16 @@ p {
 
 .text1 {
 	background-color: lightgrey;
-	text-align: left;
-	margin-right: 10%;
+	text-align: center;
+	margin-right: 13%;
 	margin-top: 5%;
-	margin-left: 65%;
+	margin-left: 67%;
 	border: 1.4px solid grey;
 	border-radius: 10px;
 	width: 20%;
 	position: fixed;
 	right: 0;
+	padding-bottom: 10px;
 }
 
 .mono {
@@ -33,9 +34,9 @@ h2 {
 .upgrades {
 	background-color: lightgrey;
 	text-align: center;
-	margin-right: 65%;
+	margin-right: 67%;
 	margin-top: 5%;
-	margin-left: 10%;
+	margin-left: 13%;
 	border: 1.4px solid grey;
 	border-radius: 10px;
 	height: 70%;
@@ -49,12 +50,13 @@ h2 {
 
 .clickarea {
 	text-align: center;
-	margin-right: 37.5%;
+	margin-right: 13%;
 	margin-top: 0%;
-	margin-left: 32%;
+	margin-left: 13%;
 	display: inline-block;
 	position: fixed;
 	left: 0;
+	right: 0;
 	float: none;
 	overflow: auto;
 }
