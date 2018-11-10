@@ -1,4 +1,4 @@
- var stats = {
+var stats = {
 	"cookies": 0,
 	"cps": 0,
 }

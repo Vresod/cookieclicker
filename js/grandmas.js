@@ -1,7 +1,5 @@
-var grandmas = 0;
-
 function buyGrandma() {
-	var grandmaCost = Math.floor(25 * Math.pow(1.1, grandmas)); //works out the cost of this grandma
+	costs.grandmaCost = Math.floor(25 * Math.pow(1.1, grandmas)); //works out the cost of this grandma
 	if (cookies >= grandmaCost) { //checks that the player can afford the grandma
 		grandmas = grandmas + 1; //increases number of grandmas
 		clicksoundlow()
