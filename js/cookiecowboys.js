@@ -1,6 +1,6 @@
 function buyCookieCowboy() {
 	costs.cookiecowboyCost = Math.floor(50 * Math.pow(1.1, upgrades.cookiecowboys)); //works out the cost of this cookiecowboy
-	if (cookies >= cookiecowboyCost) { //checks that the player can afford the cookiecowboy
+	if (stats.cookies >= costs.cookiecowboyCost) { //checks that the player can afford the cookiecowboy
 		upgrades.cookiecowboys = upgrades.cookiecowboys + 1; //increases number of cookiecowboys
 		clicksoundlow()
 		stats.cookies = stats.cookies - costs.cookiecowboyCost; //removes the cookies spent

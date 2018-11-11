@@ -1,25 +1,25 @@
 var stats = {
 	"cookies": 0,
 	"cps": 0,
-}
+};
 var upgrades = {
 	"cursors": 0,
 	"grandmas": 0,
 	"cookiecowboys": 0,
-	"cookiepropagandas": 0;
+	"cookiepropagandas": 0,
 	"cookiejesuses": 0,
-}
+};
 var costs = {
 	"cursorCost": 0,
 	"grandmaCost": 0,
 	"cookiecowboyCost": 0,
 	"cookiepropagandas": 0,
 	"cookiejesusCost": 0,
-}
+};
 var penalties = {
 	"autoBuy": false,
 	"fakeCookies": false,
-}
+};
 
 function clicksound() {
 	document.getElementById('click').play();
@@ -36,7 +36,7 @@ function cookieClick(number) {
 };
 
 window.setInterval(function () {
-	stats.cps = cursors + (grandmas * 2) + (cookiecowboys * 5) + (cookiepropagandas * 25) + (cookiejesuses * 50);
+	stats.cps = upgrades.cursors + (upgrades.grandmas * 2) + (upgrades.cookiecowboys * 5) + (upgrades.cookiepropagandas * 25) + (upgrades.cookiejesuses * 50);
 	document.getElementById('cps').innerHTML = stats.cps;
 }, 10);
 
